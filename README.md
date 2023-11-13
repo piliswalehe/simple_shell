@@ -11,16 +11,16 @@ This is an ALX collaboration project on Shell. The project shall be called *hsh*
 ## General Requirements
 
 - Allowed editors: vi, vim, emacs 
-All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
-All your files should end with a new line
-A README.md file, at the root of the folder of the project is mandatory
-Your code should use the Betty style. It will be checked using betty-style.pl and betty-doc.pl
-Your shell should not have any memory leaks
-No more than 5 functions per file
-All your header files should be include guarded
-Use system calls only when you need to (why?)
-Write a README with the description of your project
-You should have an AUTHORS file at the root of your repository, listing all individuals having contributed content to the repository. Format, see Docker
+- All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
+- All your files should end with a new line
+- A README.md file, at the root of the folder of the project is mandatory
+- Your code should use the Betty style. It will be checked using betty-style.pl and betty-doc.pl
+- Your shell should not have any memory leaks
+- No more than 5 functions per file
+- All your header files should be include guarded
+- Use system calls only when you need to (why?)
+- Write a README with the description of your project
+- You should have an AUTHORS file at the root of your repository, listing all individuals having contributed content to the repository. Format, see Docker
 
 ### Compilation
 
@@ -36,11 +36,6 @@ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
 
 6. Simple shell 0.1.1 - Write your own getline function. Use a buffer to read many chars at once and call the least possible the read system call. You will need to use static variables. You are not allowed to use getline
 
-#AUTHOR
+## AUTHOR
 
-Pili Swalehe
-email: swalehe_pili@yahoo.com
-
-
- 
-
+Pili Swalehe <swalehe_pili@yahoo.com>
