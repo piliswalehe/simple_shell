@@ -10,7 +10,7 @@ This is an ALX collaboration project on Shell. The project shall be called *hsh*
 
 ## General Requirements
 
-Allowed editors: vi, vim, emacs
+Allowed editors: vi, vim, emacs <\br>
 All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
 All your files should end with a new line
 A README.md file, at the root of the folder of the project is mandatory
