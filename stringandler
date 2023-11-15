@@ -66,3 +66,22 @@ char *_strcat(char *dest, char *src)
 	dest[i] = '\0';
 	return (dest);
 }
+
+/**
+ * _strchr - function that locates character in a string
+ * @s: string to be searched
+ * @c: character to be located
+ * Return: pointer to character
+ */
+char *_strchr(char *s, char c)
+{
+	do {
+		if (*s == c)
+		{
+			break;
+		}
+	} while (*s++);
+	return (s);
+}
+
+
